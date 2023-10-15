@@ -1,0 +1,7 @@
+checks for download:
+  - schema:
+      fail:
+        when required column missing: [Username, Recovery_code]
+        when wrong column type:
+          Username: string
+          Recovery_code: integer

@@ -1,0 +1,12 @@
+data_source demo:
+  type: bigquery
+  connection:
+    #secret_manager: projects/699252083022/secrets/soda/versions/1
+    auth_scopes:
+    - https://www.googleapis.com/auth/bigquery
+    - https://www.googleapis.com/auth/cloud-platform
+    - https://www.googleapis.com/auth/drive
+    project_id: 'gcp-demo-398309'
+    dataset: demo
+    use_context_auth: True
+

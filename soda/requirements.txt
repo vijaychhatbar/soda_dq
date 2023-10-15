@@ -1,0 +1,3 @@
+soda-core-bigquery==3.0.45
+pyarrow==12.0.1
+google-cloud-logging==3.8.0
